@@ -1,0 +1,24 @@
+div.list {
+    background-color: white;
+    overflow: scroll;
+    white-space: nowrap;
+}
+
+div.list span {
+    display: inline-table;
+    color: black;
+    text-align: left;
+    padding: 10px;
+    text-decoration: none;
+}
+
+div.deck {
+    cursor: grab;
+    cursor : -moz-grab;
+    cursor : -webkit-grab;
+}
+
+input.changeSortMode {
+    font-size: 100%;
+    width: 10%;
+}
