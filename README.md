@@ -34,13 +34,13 @@ the templates as specified above. If this is not the case, the page will simply 
 
 ### Prerequisites
 
-- <a href="http://sdkman.io/" target="_blank">SDKMAN!</a>
+- <a href="https://sdkman.io/" target="_blank">SDKMAN!</a>
     - Used to configure Grails 4
 - <a href="https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">Java Runtime Environment (JRE) 8</a>
 
 ### Downloading / Configuring Grails 4
 
-1. Configure SDKMAN by following the steps on the "<a href="http://sdkman.io/install.html">Install</a>" page.
+1. Configure SDKMAN by following the steps on the "<a href="https://sdkman.io/install">Install</a>" page.
 2. After installing SDKMAN, run `sdk install grails 4.0.0` to install Grails 4.
 3. Run `sdk list grails` to ensure that the appropriate version of Grails is in use. If not, 
 run `sdk use grails 4.0.0` to switch.
