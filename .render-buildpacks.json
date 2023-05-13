@@ -1,5 +1,0 @@
-{
-  "buildpacks": [
-    "https://github.com/heroku/heroku-buildpack-gradle.git"
-  ]
-}
