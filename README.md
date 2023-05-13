@@ -61,27 +61,3 @@ The project includes unit tests covering all the functionality of the back-end c
 Additionally, the project includes `.gitlab-ci.yml` and `.github/workflows/github-ci.yml` for configuration of GitLab CI
 and CI via GitHub Actions respectively. No additional setup is required to utilize these features and the unit tests 
 will execute automatically on those platforms whenever changes are made.
-
-## Deployment
-
-A `Procfile` is included for deploying this project to <a href="https://www.heroku.com/">Heroku</a>. Using the Heroku 
-Git method, the steps are relatively straightforward:
-
-1. <a href="https://signup.heroku.com/login">Sign up for</a> or <a href="https://id.heroku.com/login">log in to</a> a 
-Heroku account.
-2. <a href="https://dashboard.heroku.com/new-app?org=personal-apps">Create a new app</a> and make note of your app name.
-3. Download and install the <a href="https://devcenter.heroku.com/articles/heroku-command-line">Heroku CLI</a>.
-4. Log in to your Heroku account via the CLI (i.e., `heroku login`).
-5. Configure <a href="https://git-scm.com/">Git</a> and initialize a Git repository from the project root folder 
-using `git init` (if necessary):
-   - This step is not required for existing repositories (i.e., if you used Git to download the project originally)
-   - Also need to add the project files to the new Git repository (`git add .`) and commit them (`git commit -am 
-   "Initial commit"`) if performing this step
-6. Add Heroku as a Git remote (i.e., `heroku git:remote -a <your-app-name>`, where `<your-app-name>` is the name you 
-entered in step 2).
-7. Push the project to the Heroku remote via Git (i.e., `git push heroku master`).
-
-After completing these steps, the project should be deployed and accessible via your app URL 
-(i.e., `https://<your-app-name>.herokuapp.com`, where `<your-app-name>` is the name you entered in step 2). Note that
-Heroku limits availability of applications on free accounts, so it's possible that you may experience downtime based on
-this. Please see the documentation and policies on Heroku for more details.
